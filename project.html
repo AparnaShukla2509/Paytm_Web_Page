@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RailTrackPro - Railway Tracking System</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+    nav ul li {
+      margin: 0 10px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+    }
+    main {
+      padding: 20px;
+    }
+    section {
+      margin-bottom: 20px;
+    }
+    select, button {
+      padding: 10px;
+      font-size: 16px;
+    }
+    @media only screen and (max-width: 600px) {
+      nav ul {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>RailTrackPro - Railway Tracking System</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="home">
+      <h2>Welcome to RailTrackPro</h2>
+      <p>Explore our railway tracking system and get live updates on train arrivals.</p>
+    </section>
+    <section id="about">
+      <h2>About RailTrackPro</h2>
+      <p>RailTrackPro is a cutting-edge railway tracking system designed to provide accurate information about train arrivals and departures.</p>
+    </section>
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>For inquiries and support, please contact us at support@railtrackpro.com</p>
+    </section>
+    <section id="train-info">
+      <h2>Train Information</h2>
+      <label for="train-select">Select Train:</label>
+      <select id="train-select">
+        <option value="Angel Express">Angel Express</option>
+        <option value="Logic Express">Logic Express</option>
+        <option value="King Superfast Express">King Superfast Express</option>
+        <option value="Durga Express">Durga Express</option>
+      </select>
+      <button onclick="trackTrain()">Track</button>
+      <p id="arrival-time">Estimated Arrival Time: </p>
+      <p id="arrival-prediction">Predicted Arrival Time: </p>
+      <div id="train-details"></div>
+      <div id="train-schedule"></div>
+    </section>
+  </main>
+  <script>
+  </script>
+</body>
+</html>
