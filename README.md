@@ -9,7 +9,7 @@ This Project is a clone of Paytm application, a Popular Digital Payment Platform
 >by Aparna Shukla ✨
 
 
-Tap here for a quick preview on my project
+
 
 # LIVE LINK
 ![LIVE-LINK](https://img.shields.io/badge/LIVELINK-blue)
